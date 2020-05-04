@@ -7,5 +7,5 @@ def index():
     appname = os.environ['APP_NAME']
     appversion = os.environ['APP_VERSION']
 
-    response = "%s - %s.%s\n" %('HELLO WORLD', appname, appversion)
+    response = "%s - %s.%s\n" %('hello world', appname, appversion)
     return response
